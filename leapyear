@@ -1,0 +1,31 @@
+using System;
+
+namespace Leapyear
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           /* int yearOfBirth;
+            Console.WriteLine("Enter your year of birth");
+            yearOfBirth = int.Parse(Console.ReadLine());
+            if (yearOfBirth %4 ==0) {
+                Console.WriteLine($"{yearOfBirth} was a leapyear");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine($"{yearOfBirth} was a leapyear");
+                Console.ReadLine();
+            }*/
+            string optionOne = "whisky";
+            //string optionTwo = "whine";
+            Console.WriteLine("Pick your preference if whisky type: whiskey , if  whine- type whine");
+            string userChoice = Console.ReadLine();
+            string choice = (userChoice == optionOne) ? "You picked whiskey" : "You picked whine";
+            Console.WriteLine(choice);
+            Console.ReadLine();
+        }
+    
+    }
+}
